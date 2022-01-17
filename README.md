@@ -34,19 +34,23 @@
           % man cal
           % pwd
           
+          % man ls
           % ls
           % ls -a
           % ls -l
           % ls -la
           % ls testFolder
           
+          % man cd
           % cd Desktop
           % cd ..
           % cd -
           
+          % man df
           % df -h
           % man df
           
+          % man mkdir
           % mkdir testFolder
           % mkdir testFolder1
           % rm -rf testFolder
