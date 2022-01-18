@@ -96,7 +96,24 @@
           % find . empty
           
           % man grep //used to search text inside a file
-          % 
+          % grep -r "END" linuxDocs
+          % grep -rni "customer" .
+          % grep -rni -A 3 "customer" .
+          % grep -rni -A 1 -B 4 "customer" .
+          % grep -rni -A 1 -B 4 "customer" query.sql
+          
+          
+# VIM
+          % man curl
+          % curl -O https://github.com/abhilashgd/CUSTOMER-REGISTRATION-AND-FRAUD-CHECK-APP-MICROSERVICE-BACKEND/blob/main/customer/src/main/java/com/microservicetest/customer/CustomerController.java
+          % less CustomerController.java
+          % q
+          % curl -O https://github.com/abhilashgd/CUSTOMER-REGISTRATION-AND-FRAUD-CHECK-APP-MICROSERVICE-BACKEND/blob/main/fraud/src/main/java/com/microservicetest/fraud/FraudController.java
+          % less FraudController.java
+          % q
+          
+          
+          
           
           
           
