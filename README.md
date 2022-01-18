@@ -172,7 +172,16 @@
           % :%s/public/private/gc  //public-string to replace, private - string which will replace, g- global, c-confirm before changing
           % vim fileName // to create a new file with fileName
           
+#VIMRC
           
+          % vim .vimrc //under root directory
+          % i
+          //inside the file
+          :set number
+          :syntax on
+          
+          The ultimate Vim configuration (vimrc): https://github.com/amix/vimrc
+        
           
           
           
