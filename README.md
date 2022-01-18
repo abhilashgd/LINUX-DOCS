@@ -112,9 +112,60 @@
           % less FraudController.java
           % q
           
+          //command mode
+          % vim CustomerController.java
+          % :set number
+          % :set nu
+          % :syntax on
+          % :q! or :wq!
+          % :wq
+          h--> moves left 
+          l-->moves right
+          j-->moves down
+          k-->moves up
+          w-->moves word by word forward
+          b-->moves word by word backward
+          0-->to goto beggining of the line
+          $--> to goto end of the line
+          ^--> to goto beggining of the line after white spaces
+          g -->two time -->to the beggining of the file
+          G -->for end of the file
+          { --> moves sentense by sentense upwards
+          { --> moves sentense by sentense downwards
+          8 gg --> goes to line number 8
+          24 gg --> goes to line number 24
+          i --> for insert mode
+          esc --> for command mode
+          % vim +20 CustomerController.java
           
+          //insert mode
+          % vim CustomerController.java
+          % i //for insert mode
+          % esc //for going back to command mode
+          % u //to undo changes line by line inside command mode
+          % ctrl + r //for redo
+          % a --> for appending after the cursor 
+          % shift+a --> to insert at the end of the line
+          % o --> to insert after current line
+          % shift+o --> to insert before current line
+          % :q! to quit without changes
+          % :w to save changes
+          % :q! to quit
+          % :wq to write/save and quit
           
-          
+          //deleting cut and paste
+          % vim FraudController.java
+          % set nu
+          % set syntax on
+          % dw --> to delete word
+          % dd --> to delete entire line
+          % 4dd --> to delete 4 lines
+          % dG --> to delete complete file content
+          % dd--> cuts line
+          % p --> to paste the line
+          % d0 --> to delete till the begginging of the line
+          % d$ --> to delete till end of the line
+          % u --> to undo changes line by line
           
           
           
