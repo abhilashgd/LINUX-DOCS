@@ -166,6 +166,12 @@
           % d0 --> to delete till the begginging of the line
           % d$ --> to delete till end of the line
           % u --> to undo changes line by line
+          % /final //"final" is the string to search
+          % n //to find next occurence of the word "find"
+          % shift + n // to find previous occurence
+          % :%s/public/private/gc  //public-string to replace, private - string which will replace, g- global, c-confirm before changing
+          % vim fileName // to create a new file with fileName
+          
           
           
           
