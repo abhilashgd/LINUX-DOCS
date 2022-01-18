@@ -8,8 +8,8 @@
           
 # ITERM2 SHORTCUTS
 
-          % ctrl+l
-          % ctrl+k
+          % ctrl+l //clear terminal
+          % ctrl+k //clear terminal
           % alt+command+c //spectacle
           % echo $SHELL
           % command+D //new shell inside same terminal vertically
@@ -20,7 +20,7 @@
           % ctrl+e // to go to the end
           % alt+b //back one word at a time
           % alt+f //to go forward by one word
-          % clear
+          % clear //clear terminal
           
           
 # BASIC COMMANDS
@@ -29,28 +29,28 @@
           % date //for todays date
           % cal //for this month calender
           % cal 2022
-          % whoami
-          % man
+          % whoami //user logged in
+          % man  //provides detailed info about the command
           % man cal
           % pwd
           
-          % man ls
+          % man ls  //listing 
           % ls
           % ls -a
           % ls -l
           % ls -la
           % ls testFolder
           
-          % man cd
+          % man cd //change directory
           % cd Desktop
           % cd ..
           % cd -
           
-          % man df
+          % man df  //disk free space
           % df -h
           % man df
           
-          % man mkdir
+          % man mkdir  //make a directory
           % mkdir testFolder
           % mkdir testFolder1
           % rm -rf testFolder
@@ -67,7 +67,7 @@
           % cat query.sql
           
           % mv testFolder renamedFolder //to rename folders
-          % mv query.sql testFolder2
+          % mv query.sql testFolder2  //mv to move files and folders around
           % mv testFolder2/query.sql .
           % rm query.sql
           % touch query-1.sql
@@ -78,13 +78,13 @@
           % cat query.sql
           % echo "select * from order;" >>query.sql //to append
           
-          % man cp
+          % man cp  //copy command to duplicate files and folders
           % cp query.sql testFolder1/
           % cp query.sql query-copy.sql
           % cp *.sql /testFolder2/
           % cp -r testFolder1 testFolder-copy
           
-          % man find
+          % man find  //to find files and folders 
           % find .
           % find . -name query.sql
           % find . -type f -name  query.sql
@@ -95,7 +95,7 @@
           % find . -type f -empty
           % find . empty
           
-          % man grep //used to search text inside a file
+          % man grep //used to search text inside a file and display content
           % grep -r "END" linuxDocs
           % grep -rni "customer" .
           % grep -rni -A 3 "customer" .
@@ -104,7 +104,7 @@
           
           
 # VIM
-          % man curl
+          % man curl //used for downloading files from server
           % curl -O https://github.com/abhilashgd/CUSTOMER-REGISTRATION-AND-FRAUD-CHECK-APP-MICROSERVICE-BACKEND/blob/main/customer/src/main/java/com/microservicetest/customer/CustomerController.java
           % less CustomerController.java
           % q
@@ -114,9 +114,9 @@
           
           //command mode
           % vim CustomerController.java
-          % :set number
+          % :set number  //sets line numbering on 
           % :set nu
-          % :syntax on
+          % :syntax on  //sets syntax on according the the language specification similar to IDEs
           % :q! or :wq!
           % :wq
           h--> moves left 
